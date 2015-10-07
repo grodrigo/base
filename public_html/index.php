@@ -282,6 +282,8 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder);
 
+
+require FCPATH . '../vendor/autoload.php';
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
